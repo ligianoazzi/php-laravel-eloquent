@@ -40,5 +40,5 @@ Nas models de post (text) e (image)
 Function likes , this morphMany(Likes)
 
 Polymorphic many to many
-Mohtomanyr
 Criou uma tabela 
+usa morphToMany
