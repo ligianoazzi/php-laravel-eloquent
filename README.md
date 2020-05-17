@@ -25,3 +25,9 @@ Uma faz referência  a outra
 Ele fez a ligação nas migrations e depois nas modela
 A parte fraca recebe belongs to e a parte forte hasmany
 Ele carregou em memória um post é um líder é usou um associate (no tinker)
+
+ - Many to many
+Tags e posts 
+Criou uma tabela povo sem modelo
+As relações são feitas nas modela tag é post
+Belongs to many, fazendo referência a outra tabela
