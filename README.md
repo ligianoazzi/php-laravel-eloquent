@@ -31,3 +31,14 @@ Tags e posts
 Criou uma tabela povo sem modelo
 As relações são feitas nas modela tag é post
 Belongs to many, fazendo referência a outra tabela
+Detach pra remover
+Outro method é o sinc, vc passa uma lista de ida, ele deleta todas as ligações e assume a lista
+
+ - Polimorphic
+Ex. Relação entre post e like (post tem modelo pra texto e image)
+Nas models de post (text) e (image) 
+Function likes , this morphMany(Likes)
+
+Polymorphic many to many
+Mohtomanyr
+Criou uma tabela 
