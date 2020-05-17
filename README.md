@@ -15,3 +15,8 @@ Functions to leave easy call some queries, similar procedures in Sql
 
  - Soft Deleting 
 It's similar a default scope, will create a field in the table similar (deleted_at = datetime) but will not effectively delete.
+
+ - One to one
+Public config hasone in a model and public config belongsto in the other model
+Coloca um hasone em uma e um belongs to na outra
+Uma faz referência  a outra 
