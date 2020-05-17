@@ -14,4 +14,4 @@
 Functions to leave easy call some queries, similar procedures in Sql
 
  - Soft Deleting 
-It's similar a default scope, will create a field in the table similar (deleted = yes) but will not effectively delete.
+It's similar a default scope, will create a field in the table similar (deleted_at = datetime) but will not effectively delete.
